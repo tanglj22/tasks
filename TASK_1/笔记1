@@ -1,0 +1,45 @@
+
+需要注意的地方：
+1.整体布局
+    要用到
+    <header>:头部
+    <nav>:导航栏
+    <aside>:侧栏
+    <footer>:脚部
+    <article>:文章整体
+    <figure><figcaption>图片标题</figcaption><img src="图片.jpg"></figure>
+
+2.<img>标签
+  alt 属性
+  title 属性
+
+3.<a>标签
+  target 属性：按需设置
+
+4.<table>标签
+  <table border="1">
+    <thead>   --------------------- 这里
+      <tr>
+        <th>表头1</th>
+        <th>表头2</th>
+        <th>表头3</th>
+      <tr>
+    </thead>
+    <tbody>   --------------------- 这里
+      <tr>
+         <td>一行1</td>
+         <td>一行2</td>
+         <td>一行3</td>
+      <tr>
+    </tbody>
+    <tfoot>   --------------------- 这里
+      <tr>
+         <td>末行1</td>
+         <td>末行2</td>
+         <td>末行3</td>
+      <tr>
+    </tfoot>
+
+5.<form>表单
+  method 属性
+  action 属性

@@ -1,0 +1,95 @@
+@charset "utf-8";
+*{
+    /*margin: 0;*/
+    padding: 0;
+    font-family: 微软雅黑;
+}
+
+
+.re-header{
+    width: 1180px;;
+    margin: 80px auto;
+    font-size: 25px;
+    text-align: center;
+}
+.re-header #rh-content{
+    font-size: 15px;
+    color: #a2a2a2;
+}
+
+/*re-content*/
+.re-content{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/*left-side 左边栏*/
+.left-side{
+    width: 400px;
+    float: left;
+    margin: 0 20px;
+    color: #a2a2a2;
+    /*background: slateblue;*/
+}
+
+.ls p{
+    font-family: 宋体;
+    font-size: 15px;
+    line-height: 30px;
+}
+.ls ::first-line{
+    font-size: 20px;
+    font-family: 黑体;
+    color: #000;
+    line-height: 60px;
+}
+
+/*right-side 注册 右边栏*/
+.right-side{
+    width: 700px;
+    margin: 20px;
+    float: right;
+    /*background: cadetblue;*/
+    color: #5B5B5B;
+}
+.right-side .frs-1{
+    width: 330px;
+    height: 40px;
+    float: left;
+    margin: 10px;
+    background: #ededed;
+}
+.right-side label{
+    margin: 10px;
+    line-height: 40px;
+}
+.right-side input{
+    border: 1px solid #ededed;
+}
+.frs-2{
+    float: left;
+    width: 680px;
+    margin: 10px;
+    background: #ededed;
+}
+.rs-5{
+    height: 250px;
+}
+.rs-6{
+    text-align: center;
+    height: 40px;
+}
+.rs-6 input{
+    font-family: 黑体;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+

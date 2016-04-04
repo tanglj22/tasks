@@ -1,0 +1,127 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sub-right{
+    width: 459px;
+}
+.sub-right .sub-right-header{
+    position:absolute;
+    top:0;
+    width: 458px;
+    height: 275px;
+    overflow: hidden;
+}
+.sub-right-header img{
+    /*float: left;*/
+}
+.sub-right-header .title-up{
+    position: absolute;
+    bottom: 0;
+    width: 458px;
+    height: 61px;
+    background-color: rgba(0,0,0,0.4);
+    color:#fff;
+    line-height: 61px;
+}
+.title-up span{
+    height: 44px;
+    margin-left: 30px;
+    padding:10px;
+    border-left: 3px solid #72b16a;
+    font-family: 黑体;
+    font-size: 26px;
+}
+.title-up i{
+    font-family: 微软雅黑;
+    font-size: 12px;
+    word-spacing:140%;
+    color:#72b16a;
+}
+
+
+/*下半部分*/
+.sub-right .sub-right-content{
+    position:relative;
+    top:298px;
+    width: 459px;
+    height: 318px;
+    background: cornsilk;
+}
+.sub-right-content .con-up{
+    position:absolute;
+    width: 400px;
+    margin:15px;
+    font-family: 宋体;
+}
+.con-up ul li{
+    list-style: none;
+    margin: 20px auto;
+    font-size: 16px;
+}
+.con-up ul li i{
+    float: right;
+    font-size:12px;
+}
+
+.sub-right-content .title-down{
+    position: absolute;
+    float: left;
+    /*overflow: hidden;*/
+    bottom:0;
+    width: 260px;
+    height: 160px;
+    background-color: lightcoral;
+    font-family: 黑体;
+    color: #fff;
+}
+.title-down .title-down-l{
+    float: left;
+    width: 70px;
+    font-family: 微软雅黑;
+    font-size: 110px;
+    border-right: 2px solid #fff;
+}
+.title-down .title-down-r{
+    float: right;
+    width: 168px;
+    margin: 30px auto;
+    padding: 10px;
+    font-family: 黑体;
+    font-size: 12px;
+}
+.title-down-r i{
+    font-size: 21px;
+}
+.sub-right-content .down-right{
+    position: absolute;
+    float: right;
+    overflow:hidden;
+    right:0;
+    bottom: 0;
+    width: 199px;
+    height: 160px;
+    background-color: #f5e327;
+    font-family: 黑体;
+    color: #000;
+}
+.down-right p{
+    text-indent:1cm;
+    /*margin: 10px;*/
+}
+.down-right #top{
+    height: 30px;
+    margin: 0 0 -30px -30px;
+    font-size: 72px;
+    color: #d45d5c;
+}
+.down-right #bottom{
+    position:absolute;
+    right: -30px;
+    bottom:-30px;
+    font-size: 72px;
+    color: #d45d5c;
+}
+

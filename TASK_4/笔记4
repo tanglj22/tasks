@@ -1,0 +1,15 @@
+清除浮动的方法:
+    clear:both
+    overflow:auto/hidden(IE6,清除滚动条)
+    clearfix:
+      .box-set:before,
+      .box-set:after {
+        content: "";
+        display: table;
+      }
+      .box-set:after {
+        clear: both;
+      }
+      .box-set {
+        *zoom: 1;
+      }

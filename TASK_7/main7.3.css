@@ -1,0 +1,166 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+
+
+/*新世界 time*/
+.time{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.time .time-left{
+    position: absolute;
+    float: left;
+    width: 65%;
+    height: inherit;
+    background: url("image/new-time1.jpg") ;
+    background-size: 100% 100%;
+}
+.time-left .time-content{
+    width: 50%;
+    margin: 80px auto;
+    color: #fff;
+}
+.time-content #word{
+    font-size: 45px;
+}
+.time-content #time{
+    font-size: 150px;
+}
+.time-content #at,.time-content #att{
+    font-size: 25px;
+}
+
+.time .time-right{
+    float: right;
+    width: 35%;
+    height: inherit;
+    /*background: saddlebrown;*/
+}
+.time-right .tr-world{
+    font-family: 黑体;
+    width: 60%;
+    font-size: 20px;
+    margin: 150px auto;
+}
+.tr-world #tr-01{
+    color: #E8504F;
+}
+.tr-world #tr-02{
+    color: #999;
+    letter-spacing: 10px;
+}
+.tr-world #tr-content{
+    margin-top: 10px ;
+    line-height: 200%;
+    text-align: left;
+    font-family: 宋体;
+    font-size: 10px;
+    color: #999;
+    word-spacing: 20px;
+}
+.tr-world button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #E8504F;
+    background: #fff;
+    color: #E8504F;
+}
+
+/*新时代关于爱生活的我们*/
+.life{
+    position:absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+}
+.life-left,.life-center,.life-right{
+    height: inherit;
+}
+.life .life-left{
+    position:absolute;
+    left: 0;
+    width: 35%;
+    background: #E8504F;
+}
+.l-content{
+    font-family: 黑体;
+    width: 300px;
+    font-size: 20px;
+    margin: 150px auto;
+}
+.l-content .line{
+    width: 30px;
+    height: 5px;
+    margin: 0 auto;
+}
+.l-content .l1{
+    background: #fff;
+}
+.l-content .l2{
+    background: #E8504F;
+}
+
+.l-content button{
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    background: transparent;
+}
+.ll-common{
+    color: #fff;
+}
+.ll-button{
+    color: #fff;
+    border: 1px solid #fff;
+}
+.lc-common{
+    color: #000;
+}
+.lc-button{
+    color:#E8504F;
+    border: 1px solid #E8504F;
+}
+
+.life .life-center{
+    position:absolute;
+    left: 35%;
+    width: 30%;
+}
+
+.life .life-right{
+    position:absolute;
+    right: 0;
+    top:0;
+    width: 35%;
+    background: url("image/new-life1.jpg");
+    background-size: 100% 100%;
+}
+
+/*绘制三角形*/
+.triangle{
+    width: 0;
+    height: 0;
+    border-width: 15px 30px;
+    border-style: dashed;
+    font-size:0;
+    line-height:0;
+}
+.triangle-up{
+    position:absolute;
+    right: 0;
+    top:235px;
+    border-color: transparent #fff transparent transparent;
+}
+.triangle-down{
+    position: absolute;
+    top: 50%;
+    float: left;
+    border-color: transparent transparent transparent #fff;
+}
+

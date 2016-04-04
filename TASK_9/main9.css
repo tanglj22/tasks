@@ -1,0 +1,79 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+aside{
+    width: 300px;
+    height: 1000px;
+    background: #2B2E3D;
+    color: #6E8096;
+    font-family: 黑体;
+}
+/*********************************/
+.s-head{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+.tx{
+    width: 72px;
+    height: 72px;
+    background: #BAB9BE;
+    border-radius: 60px;
+    margin-right: 0;
+    float: left;
+}
+.tx img{
+    margin: 2px;
+    width: 60px;
+    height: 60px;
+    line-height: 0;
+    display: inline-block;
+    border-radius: 50%;
+    border: 4px solid #2B2E3D;
+}
+h4{
+    margin-left: 100px;
+    line-height: 72px;
+    color: #EDEDED;
+}
+
+/*********  s-head(收藏/粉丝)  *********/
+.s-head span{
+    float: left;
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+    color:#6E8094;
+}
+
+/**********  个人报表及之后  *************/
+.grbb{
+    width: 100%;
+    background: #383E4E;
+    line-height: 30px;
+}
+
+.l-head:hover{
+    color:#EDEDED;
+}
+
+.line-wrap{
+    text-indent: 3em;
+    line-height: 50px;
+}
+
+dt{
+    text-indent: 4em;
+}
+dd{
+    text-indent: 7em;
+}
+
+/******** 共有样式 *******/
+.grbb .l-head, .wj2, .wd1{color:#EDEDED;}
+.s-head span:hover, dt:hover, dd:hover{ color: #fff; cursor:pointer;}
+
